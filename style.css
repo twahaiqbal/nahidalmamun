@@ -1,0 +1,10 @@
+body{
+    margin: 0px;
+}
+#img1{
+    float: left;
+}
+h1{
+    color: indigo;
+    text-shadow: 5px 4px 10px rgb(18, 255, 211), -5px -4px 10px rgb(158, 18, 18);
+}
