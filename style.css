@@ -1,10 +1,47 @@
 body{
     margin: 0px;
+    background-color: black;
+    color: white;
 }
-#img1{
+
+header{
+    background-color: rgb(48, 47, 47);
+    margin: 20px;
+}
+
+.headline{
+    padding: 25px;
+    color: rgb(8, 167, 8);
+    font-family: Atma;
+    font-weight: 500;
+}
+
+main{
+    margin: 20px;
+    margin-top: 45px;
+    font-family: "Hind Siliguri";
+}
+
+img{
     float: left;
 }
-h1{
-    color: indigo;
-    text-shadow: 5px 4px 10px rgb(18, 255, 211), -5px -4px 10px rgb(158, 18, 18);
+
+.index{
+    display: inline-block;
+    margin: 20px;
+}
+
+li{
+    padding: 15px;
+}
+
+footer{
+    background-color: rgb(150, 150, 55);
+    margin: 20px;
+    padding: 10px;
+    margin-top: 75px;
+    text-align: center;
+    color: black;
+    font-family: "Hind Siliguri";
+    font-weight: 600;
 }
