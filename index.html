@@ -1,47 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>নাহিদ আল মামুন</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/jpg" href="nadu_bhai_kholla.jpg">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>নাহিদ আল মামুন — লেখালেখি</title>
+    <meta name="description" content="নাহিদ আল মামুন — লেখালেখি, ছোটগল্প, কবিতা ও উপন্যাস।">
+    <meta property="og:title" content="নাহিদ আল মামুন">
+    <meta property="og:description" content="লেখালেখি, ছোটগল্প, কবিতা ও উপন্যাস।">
+    <meta property="og:image" content="nadu_bhai_kholla.jpg">
+    <meta name="theme-color" content="#0b6623">
+
+    <!-- Consolidated fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@400;600;700&family=Hind+Siliguri:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons (open-source CDN) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="icon" href="nadu_bhai_kholla.jpg" sizes="32x32">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <div class="container">
-            <h1 class="headline">আসসালামু আলাইকুম। আমি নাহিদ আল মামুন।</h1>
-            <h3 class="headline">আমি সিলেট বিজ্ঞান প্রযুক্তি কলেজের একজন প্রাক্তন ছাত্র। আমি পড়াশোনার পাশাপাশি লেখালেখি করতে ভালোবাসি। আমার লেখাগুলোকে সাজিয়ে সুন্দরভাবে উপস্থাপনের প্রয়াস হিসেবে এই ওয়েবসাইটটি প্রস্তুতকৃত।</h3>
+    <header class="site-header">
+        <div class="container header-row">
+            <a class="brand" href="/">
+                <img class="brand-img" src="nadu_bhai.jpg" alt="নাহিদ আল মামুন">
+                <span class="brand-title">নাহিদ আল মামুন</span>
+            </a>
+            <nav class="main-nav" aria-label="প্রধান নেভিগেশন">
+                <a href="#writing">আমার লেখা</a>
+                <a href="#contact">যোগাযোগ</a>
+            </nav>
         </div>
     </header>
 
     <main>
-        <div class="container main-content">
-            <div class="writing-section">
-                <img src="nadu_bhai_photo.jpg" alt="নাহিদ আল মামুন" class="profile-img" style="width:120px; float:left; margin-right:20px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.08);">
-                <h3 style="margin-top:0;">আমার লেখা:</h3>
-                <ul>
-                    <li><a href="uponnash.html">উপনাস</a></li>
-                    <li><a href="chotogolpo.html">ছোটগল্প</a></li>
-                    <li><a href="kobita.html">কবিতা</a></li>
+        <section class="hero">
+            <div class="container hero-grid">
+                <figure class="profile-card">
+                    <img src="nadu_bhai_photo.jpg" alt="নাহিদ আল মামুন — ছবি" class="profile-photo">
+                </figure>
+                <div class="hero-copy">
+                    <h1>আসসালামু আলাইকুম — আমি নাহিদ আল মামুন</h1>
+                    <p class="lead">সিলেট বিজ্ঞান প্রযুক্তি কলেজের প্রাক্তন ছাত্র। পড়াশোনার পাশাপাশি লেখালেখি করি — উপন্যাস, ছোটগল্প ও কবিতা লিখি। এই সাইটে আমার লেখা সুন্দরভাবে উপস্থাপন করা হয়েছে।</p>
+                    <p><a class="btn" href="#writing">আমার লেখা দেখুন</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="writing" class="section">
+            <div class="container">
+                <h2>আমার লেখা</h2>
+                <ul class="writing-list">
+                    <li><a href="uponnash.html"><i class="fa-solid fa-book-open"></i> উপন্যাস</a></li>
+                    <li><a href="chotogolpo.html"><i class="fa-solid fa-pen-nib"></i> ছোটগল্প</a></li>
+                    <li><a href="kobita.html"><i class="fa-solid fa-feather"></i> কবিতা</a></li>
                 </ul>
             </div>
-        </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2>যোগাযোগ</h2>
+                <p>নির্দিষ্ট প্রশ্ন বা কাজের প্রস্তাব থাকলে নিচের মাধ্যমগুলোয় যোগাযোগ করুন।</p>
+                <ul class="contact-list">
+                    <li><a href="mailto:your@email.com"><i class="fa-regular fa-envelope"></i> ইমেইল</a></li>
+                    <li><a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i> ফেসবুক</a></li>
+                </ul>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <div class="container">
-            <h4>আমার সাথে যোগাযোগ</h4>
-            <ul class="contact-list">
-                <li><strong>E-mail:</strong> <a href="mailto:your@email.com">your@email.com</a></li>
-                <li><strong>Facebook:</strong> <a href="https://facebook.com/yourprofile" target="_blank">facebook.com/yourprofile</a></li>
-            </ul>
+    <footer class="site-footer">
+        <div class="container footer-row">
+            <p>© <strong>নাহিদ আল মামুন</strong> — লেখালেখি ও ব্যক্তিগত ব্লগ</p>
+            <p class="small">ছবিসংগ্রহ: স্থানীয় (আপনি) • হিরোর পটভূমি — <a href="https://source.unsplash.com/featured/?books" target="_blank" rel="noopener">Unsplash</a></p>
         </div>
     </footer>
+
 </body>
 </html>
